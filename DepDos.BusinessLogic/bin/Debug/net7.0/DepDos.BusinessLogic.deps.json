@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DepDos.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "DepDos.Core": "1.0.0"
+        },
+        "runtime": {
+          "DepDos.BusinessLogic.dll": {}
+        }
+      },
+      "DepDos.Core/1.0.0": {
+        "runtime": {
+          "DepDos.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DepDos.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DepDos.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

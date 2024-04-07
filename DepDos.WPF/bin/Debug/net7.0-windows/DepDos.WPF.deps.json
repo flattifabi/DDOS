@@ -1,0 +1,100 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DepDos.WPF/1.0.0": {
+        "dependencies": {
+          "DepDos.BusinessLogic": "1.0.0",
+          "DepDos.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.0-preview.2.24128.5",
+          "WPF-UI": "3.0.1"
+        },
+        "runtime": {
+          "DepDos.WPF.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.2.24128.5": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "WPF-UI/3.0.1": {
+        "runtime": {
+          "lib/net7.0-windows7.0/Wpf.Ui.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "DepDos.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "DepDos.Core": "1.0.0"
+        },
+        "runtime": {
+          "DepDos.BusinessLogic.dll": {}
+        }
+      },
+      "DepDos.Core/1.0.0": {
+        "runtime": {
+          "DepDos.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DepDos.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sz0ZvGGqgdSCDX+jCzfqN4shBwOhj6eaRLVx2jgiWfcTU6xXTL+ccDmFQVAwRwnPO9cBceTfqxpXuLtcbb+/Sw==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o5j9Gk+qVb0wmOvP4OmGp4Q6KhGDebpwhtiUpoJyiksqFCxbYG4tt2fLaCtsj18CVy8+wVmG73FaYERz9MBe/w==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "WPF-UI/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kV42QrpQoWcL0oM5Ke546aqyn/9sHwDK94XpKZShY1tbaGB0dlJz7cNJwUph8GcTblWlqdP7i6j7UeH7zKDoWQ==",
+      "path": "wpf-ui/3.0.1",
+      "hashPath": "wpf-ui.3.0.1.nupkg.sha512"
+    },
+    "DepDos.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DepDos.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

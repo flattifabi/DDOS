@@ -1,0 +1,57 @@
+﻿<ui:FluentWindow x:Class="DepDos.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DepDos.WPF"
+        mc:Ignorable="d"
+        ui:ExtendsContentIntoTitleBar="True"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        ResizeMode="NoResize"
+        ui:WindowCornerPreference="Round"
+        WindowStartupLocation="CenterScreen"
+        d:DataContext="{d:DesignInstance Type=local:MainWindowViewModel}"
+        Title="DepDos - Windows" Height="600" Width="950">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Panel.ZIndex="99" Orientation="Horizontal" Grid.ColumnSpan="100" Grid.RowSpan="100" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="15">
+            <Button BorderThickness="0" Grid.ColumnSpan="100" Grid.RowSpan="100" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="5 0 0 0" Command="{Binding MinimizeCommand}">
+                <ui:SymbolIcon Symbol="ArrowMinimize16" Foreground="Orange" Height="20" Width="20" FontSize="20"/>
+            </Button>
+            <Button BorderThickness="0" Grid.ColumnSpan="100" Grid.RowSpan="100" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="5 0 0 0" Command="{Binding CloseCommand}">
+                <ui:SymbolIcon Symbol="ArrowExit20" Foreground="Red" Height="20" Width="20" FontSize="20"/>
+            </Button>
+        </StackPanel>
+        
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Max Requests in a Minute" VerticalAlignment="Center"></TextBlock>
+                    <ui:NumberBox Margin="10 0 0 0" VerticalAlignment="Center" Value="{Binding DosConfiguration.RequestsPerMinute}"></ui:NumberBox>
+                </StackPanel>
+                
+                <ui:TextBox PlaceholderEnabled="True" PlaceholderText="Web-Address">
+                    
+                </ui:TextBox>
+                
+                <StackPanel Orientation="Horizontal" Margin="0 10 0 0" HorizontalAlignment="Center">
+                    <Button Background="Green">
+                        <StackPanel Orientation="Horizontal">
+                            <ui:SymbolIcon Symbol="Play12" Foreground="White" FontSize="17" VerticalAlignment="Center"></ui:SymbolIcon>
+                            <TextBlock Text="Start" Foreground="White" Margin="10 0 0 0" VerticalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                
+            </StackPanel>
+            
+            
+            
+            <ui:SnackbarPresenter x:Name="SnackbarPresenter" Grid.RowSpan="100" Grid.ColumnSpan="100" Panel.ZIndex="999999" VerticalAlignment="Bottom"/>
+            <ContentPresenter x:Name="ContentPresenter" Grid.RowSpan="100" Grid.ColumnSpan="100" Panel.ZIndex="999999999" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </Grid>
+    </Grid>
+</ui:FluentWindow>

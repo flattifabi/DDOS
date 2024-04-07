@@ -1,0 +1,14 @@
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\bin\Debug\net7.0\DOS.Windows.exe
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\bin\Debug\net7.0\DOS.Windows.deps.json
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\bin\Debug\net7.0\DOS.Windows.runtimeconfig.json
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\bin\Debug\net7.0\DOS.Windows.dll
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\bin\Debug\net7.0\DOS.Windows.pdb
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.AssemblyInfoInputs.cache
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.AssemblyInfo.cs
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.csproj.CoreCompileInputs.cache
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.dll
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\refint\DOS.Windows.dll
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.pdb
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\DOS.Windows.genruntimeconfig.cache
+C:\Users\fabif\RiderProjects\DDOS\DOS.Windows\obj\Debug\net7.0\ref\DOS.Windows.dll

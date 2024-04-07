@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pPpfTts5myI+rXzUW+lS5AgJ1IOp59JqhDfOA6qpni832d3Enuz66pYRIwB0Y6yK0IsmKJyU2Mt5odclatmi2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabif\\RiderProjects\\DDOS\\DepDos.WPF\\DepDos.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabif\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.2.24128.5\\microsoft.extensions.dependencyinjection.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "C:\\Users\\fabif\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.2.24128.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "C:\\Users\\fabif\\.nuget\\packages\\wpf-ui\\3.0.1\\wpf-ui.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

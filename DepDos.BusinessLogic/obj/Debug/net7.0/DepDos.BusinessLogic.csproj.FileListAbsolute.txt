@@ -1,0 +1,15 @@
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\bin\Debug\net7.0\DepDos.BusinessLogic.deps.json
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\bin\Debug\net7.0\DepDos.BusinessLogic.dll
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\bin\Debug\net7.0\DepDos.BusinessLogic.pdb
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\bin\Debug\net7.0\DepDos.Core.dll
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\bin\Debug\net7.0\DepDos.Core.pdb
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.AssemblyInfo.cs
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.csproj.CopyComplete
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.dll
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\refint\DepDos.BusinessLogic.dll
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\DepDos.BusinessLogic.pdb
+C:\Users\fabif\RiderProjects\DDOS\DepDos.BusinessLogic\obj\Debug\net7.0\ref\DepDos.BusinessLogic.dll
